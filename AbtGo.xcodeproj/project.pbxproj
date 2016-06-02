@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5815AA911D0055470099083A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AA901D0055470099083A /* main.m */; };
+		5815AA941D0055470099083A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AA931D0055470099083A /* AppDelegate.m */; };
+		5815AA971D0055470099083A /* AbtGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5815AA951D0055470099083A /* AbtGo.xcdatamodeld */; };
+		5815AA9A1D0055470099083A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AA991D0055470099083A /* MasterViewController.m */; };
+		5815AA9D1D0055470099083A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AA9C1D0055470099083A /* DetailViewController.m */; };
+		5815AAA01D0055470099083A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5815AA9E1D0055470099083A /* Main.storyboard */; };
+		5815AAA21D0055470099083A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5815AAA11D0055470099083A /* Assets.xcassets */; };
+		5815AAA51D0055470099083A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5815AAA31D0055470099083A /* LaunchScreen.storyboard */; };
+		5815AAB01D0055470099083A /* AbtGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AAAF1D0055470099083A /* AbtGoTests.m */; };
+		5815AABB1D0055470099083A /* AbtGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815AABA1D0055470099083A /* AbtGoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5815AAAC1D0055470099083A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5815AA841D0055470099083A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5815AA8B1D0055470099083A;
+			remoteInfo = AbtGo;
+		};
+		5815AAB71D0055470099083A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5815AA841D0055470099083A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5815AA8B1D0055470099083A;
+			remoteInfo = AbtGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5815AA8C1D0055470099083A /* AbtGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbtGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815AA901D0055470099083A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5815AA921D0055470099083A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5815AA931D0055470099083A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5815AA961D0055470099083A /* AbtGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AbtGo.xcdatamodel; sourceTree = "<group>"; };
+		5815AA981D0055470099083A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		5815AA991D0055470099083A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		5815AA9B1D0055470099083A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5815AA9C1D0055470099083A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5815AA9F1D0055470099083A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5815AAA11D0055470099083A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5815AAA41D0055470099083A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5815AAA61D0055470099083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5815AAAB1D0055470099083A /* AbtGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbtGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815AAAF1D0055470099083A /* AbtGoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbtGoTests.m; sourceTree = "<group>"; };
+		5815AAB11D0055470099083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5815AAB61D0055470099083A /* AbtGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbtGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5815AABA1D0055470099083A /* AbtGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbtGoUITests.m; sourceTree = "<group>"; };
+		5815AABC1D0055470099083A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5815AA891D0055470099083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAA81D0055470099083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAB31D0055470099083A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5815AA831D0055470099083A = {
+			isa = PBXGroup;
+			children = (
+				5815AA8E1D0055470099083A /* AbtGo */,
+				5815AAAE1D0055470099083A /* AbtGoTests */,
+				5815AAB91D0055470099083A /* AbtGoUITests */,
+				5815AA8D1D0055470099083A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5815AA8D1D0055470099083A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5815AA8C1D0055470099083A /* AbtGo.app */,
+				5815AAAB1D0055470099083A /* AbtGoTests.xctest */,
+				5815AAB61D0055470099083A /* AbtGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5815AA8E1D0055470099083A /* AbtGo */ = {
+			isa = PBXGroup;
+			children = (
+				5815AA921D0055470099083A /* AppDelegate.h */,
+				5815AA931D0055470099083A /* AppDelegate.m */,
+				5815AA981D0055470099083A /* MasterViewController.h */,
+				5815AA991D0055470099083A /* MasterViewController.m */,
+				5815AA9B1D0055470099083A /* DetailViewController.h */,
+				5815AA9C1D0055470099083A /* DetailViewController.m */,
+				5815AA9E1D0055470099083A /* Main.storyboard */,
+				5815AAA11D0055470099083A /* Assets.xcassets */,
+				5815AAA31D0055470099083A /* LaunchScreen.storyboard */,
+				5815AAA61D0055470099083A /* Info.plist */,
+				5815AA951D0055470099083A /* AbtGo.xcdatamodeld */,
+				5815AA8F1D0055470099083A /* Supporting Files */,
+			);
+			path = AbtGo;
+			sourceTree = "<group>";
+		};
+		5815AA8F1D0055470099083A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5815AA901D0055470099083A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5815AAAE1D0055470099083A /* AbtGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5815AAAF1D0055470099083A /* AbtGoTests.m */,
+				5815AAB11D0055470099083A /* Info.plist */,
+			);
+			path = AbtGoTests;
+			sourceTree = "<group>";
+		};
+		5815AAB91D0055470099083A /* AbtGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5815AABA1D0055470099083A /* AbtGoUITests.m */,
+				5815AABC1D0055470099083A /* Info.plist */,
+			);
+			path = AbtGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5815AA8B1D0055470099083A /* AbtGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5815AABF1D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGo" */;
+			buildPhases = (
+				5815AA881D0055470099083A /* Sources */,
+				5815AA891D0055470099083A /* Frameworks */,
+				5815AA8A1D0055470099083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbtGo;
+			productName = AbtGo;
+			productReference = 5815AA8C1D0055470099083A /* AbtGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5815AAAA1D0055470099083A /* AbtGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5815AAC21D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGoTests" */;
+			buildPhases = (
+				5815AAA71D0055470099083A /* Sources */,
+				5815AAA81D0055470099083A /* Frameworks */,
+				5815AAA91D0055470099083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5815AAAD1D0055470099083A /* PBXTargetDependency */,
+			);
+			name = AbtGoTests;
+			productName = AbtGoTests;
+			productReference = 5815AAAB1D0055470099083A /* AbtGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5815AAB51D0055470099083A /* AbtGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5815AAC51D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGoUITests" */;
+			buildPhases = (
+				5815AAB21D0055470099083A /* Sources */,
+				5815AAB31D0055470099083A /* Frameworks */,
+				5815AAB41D0055470099083A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5815AAB81D0055470099083A /* PBXTargetDependency */,
+			);
+			name = AbtGoUITests;
+			productName = AbtGoUITests;
+			productReference = 5815AAB61D0055470099083A /* AbtGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5815AA841D0055470099083A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Genming Zhao";
+				TargetAttributes = {
+					5815AA8B1D0055470099083A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5815AAAA1D0055470099083A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5815AA8B1D0055470099083A;
+					};
+					5815AAB51D0055470099083A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5815AA8B1D0055470099083A;
+					};
+				};
+			};
+			buildConfigurationList = 5815AA871D0055470099083A /* Build configuration list for PBXProject "AbtGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5815AA831D0055470099083A;
+			productRefGroup = 5815AA8D1D0055470099083A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5815AA8B1D0055470099083A /* AbtGo */,
+				5815AAAA1D0055470099083A /* AbtGoTests */,
+				5815AAB51D0055470099083A /* AbtGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5815AA8A1D0055470099083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5815AAA51D0055470099083A /* LaunchScreen.storyboard in Resources */,
+				5815AAA21D0055470099083A /* Assets.xcassets in Resources */,
+				5815AAA01D0055470099083A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAA91D0055470099083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAB41D0055470099083A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5815AA881D0055470099083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5815AA9D1D0055470099083A /* DetailViewController.m in Sources */,
+				5815AA9A1D0055470099083A /* MasterViewController.m in Sources */,
+				5815AA941D0055470099083A /* AppDelegate.m in Sources */,
+				5815AA971D0055470099083A /* AbtGo.xcdatamodeld in Sources */,
+				5815AA911D0055470099083A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAA71D0055470099083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5815AAB01D0055470099083A /* AbtGoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5815AAB21D0055470099083A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5815AABB1D0055470099083A /* AbtGoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5815AAAD1D0055470099083A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5815AA8B1D0055470099083A /* AbtGo */;
+			targetProxy = 5815AAAC1D0055470099083A /* PBXContainerItemProxy */;
+		};
+		5815AAB81D0055470099083A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5815AA8B1D0055470099083A /* AbtGo */;
+			targetProxy = 5815AAB71D0055470099083A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5815AA9E1D0055470099083A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5815AA9F1D0055470099083A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5815AAA31D0055470099083A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5815AAA41D0055470099083A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5815AABD1D0055470099083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5815AABE1D0055470099083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5815AAC01D0055470099083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbtGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5815AAC11D0055470099083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AbtGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5815AAC31D0055470099083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbtGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbtGo.app/AbtGo";
+			};
+			name = Debug;
+		};
+		5815AAC41D0055470099083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AbtGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AbtGo.app/AbtGo";
+			};
+			name = Release;
+		};
+		5815AAC61D0055470099083A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbtGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbtGo;
+			};
+			name = Debug;
+		};
+		5815AAC71D0055470099083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AbtGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = genming.AbtGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AbtGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5815AA871D0055470099083A /* Build configuration list for PBXProject "AbtGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5815AABD1D0055470099083A /* Debug */,
+				5815AABE1D0055470099083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5815AABF1D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5815AAC01D0055470099083A /* Debug */,
+				5815AAC11D0055470099083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5815AAC21D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5815AAC31D0055470099083A /* Debug */,
+				5815AAC41D0055470099083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5815AAC51D0055470099083A /* Build configuration list for PBXNativeTarget "AbtGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5815AAC61D0055470099083A /* Debug */,
+				5815AAC71D0055470099083A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5815AA951D0055470099083A /* AbtGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5815AA961D0055470099083A /* AbtGo.xcdatamodel */,
+			);
+			currentVersion = 5815AA961D0055470099083A /* AbtGo.xcdatamodel */;
+			path = AbtGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5815AA841D0055470099083A /* Project object */;
+}
